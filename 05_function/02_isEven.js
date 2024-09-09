@@ -26,3 +26,10 @@ function findTarget(array,target){
 const myArray=[1,2,8,9,11]
 const ans = findTarget(myArray,2);
 console.log(ans);
+
+//function expression
+
+const sumThreeNumber=function(number1,number2,number3){
+    console.log(number1+number3+number3);
+}
+   sumThreeNumber(2,5,6);
