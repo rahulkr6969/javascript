@@ -15,7 +15,7 @@ const sum=numbers.reduce((accumulator,currentvalue)=>{
 const userCart=[
     {productId:1 , productName:"mobile" , price:22000},
     {productId:2 , productName:"laptop" , price:60000},
-    {productId:3 , productName:"tv" , price:30000},
+    {productId:3 , productName:"tv" , price:15000},
 ]
  const total=userCart.reduce((totalPrice,currentProduct)=>{
       return currentProduct.price+totalPrice;
