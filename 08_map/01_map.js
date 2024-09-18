@@ -8,8 +8,15 @@
 //as key
 //in maps you can useanything as key
 //like array, number, string
-const person={
-    firstName:"rahul",
-    age:18,
-}
-console.log(person.firstName);
+//object literal
+//key-> string
+//ket-> symbol
+// const person={
+//     firstName:"rahul",
+//     age:18,
+// }
+// console.log(person.firstName);
+
+//key value pair
+const person=new Map();
+console.log(person);
