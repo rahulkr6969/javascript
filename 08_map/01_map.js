@@ -4,9 +4,9 @@
 //store key value pair(like object)
 //duplicate keys are not allowed like objects
 //different between maps and objects 
-//objects can only havestring or symbol
+//objects can only have string or symbol
 //as key
-//in maps you can useanything as key
+//in maps you can use anything as key
 //like array, number, string
 //object literal
 //key-> string
@@ -19,6 +19,7 @@
 
 //key value pair
 const person=new Map();
-person.set('firstNmae','rahul');
+person.set('firstName','rahul');
 person.set('age',18);
 console.log(person);
+console.log(person.get('firstName'));
