@@ -19,4 +19,6 @@
 
 //key value pair
 const person=new Map();
+person.set('firstNmae','rahul');
+person.set('age',18);
 console.log(person);
