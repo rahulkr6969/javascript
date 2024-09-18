@@ -24,4 +24,8 @@ numbers.add(6);
 const myArray=[1,2,2,3,4,4,5,5,6];
 const uniqueElements=new Set(myArray);
 console.log(uniqueElements);
-console.log(myArray);
+let length=0;
+for(uniqueElement of uniqueElements){
+    length++;
+}
+console.log(length);
