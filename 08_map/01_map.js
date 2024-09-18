@@ -18,8 +18,17 @@
 // console.log(person.firstName);
 
 //key value pair
-const person=new Map();
-person.set('firstName','rahul');
-person.set('age',18);
-console.log(person);
-console.log(person.get('firstName'));
+// const person=new Map();
+// person.set('firstName','rahul');
+// person.set('age',18);
+// console.log(person);
+// console.log(person.get('firstName'));
+
+const person1={
+    id:1,
+    firstNmae:"rahul",
+}
+const extraInfo=new Map();
+extraInfo.set(person1,{age:8, gender:"male"});
+console.log(extraInfo.get(person1).gender);
+
