@@ -11,4 +11,9 @@ const user2={
     firstName:"mohit",
     age:'17',
 }
-about.call(user1,"Sleeping","Pawan Singh");
+//about.call(user1,"Sleeping","Pawan Singh");
+//apply
+//about.apply(user2,["sleeping","pawan singh"]);
+//bind 
+const func=about.bind(user1,"sleeping","pawan singh");
+func();
