@@ -6,4 +6,8 @@ const user1={
         console.log(this.firstName,this.age);
     }
 }
-user1.about();
+const user2={
+    firstName:"mohit",
+    age:'17',
+}
+user1.about.call(user2);
