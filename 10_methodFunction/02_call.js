@@ -11,9 +11,12 @@ const user2={
     firstName:"mohit",
     age:'17',
 }
+//call
 //about.call(user1,"Sleeping","Pawan Singh");
+
 //apply
 //about.apply(user2,["sleeping","pawan singh"]);
+
 //bind 
-const func=about.bind(user1,"sleeping","pawan singh");
-func();
+const myFunc=about.bind(user1,"sleeping","pawan singh");
+myFunc();
