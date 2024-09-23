@@ -14,7 +14,7 @@ const userMethods={
     }
 }
 function createUser(firstName, lastName, email, age, address){
-    const user= Object.create(userMethods);
+    const user = Object.create(userMethods);
     user.firstName = firstName;
     user.lastName = lastName;
     user.email = email;
