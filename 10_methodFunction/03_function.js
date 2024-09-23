@@ -27,6 +27,6 @@ const user1=createUser("rahul","kumar","rahul.kumar6969@gmail.com",'18',"Bajrang
 const user2=createUser("mohit","kumar","mohit.kumar@gmail.com",'17',"Bajrangpuri");
 const user3=createUser("sumit","kumar","sumit.kumar66@gmail.com",'16',"Bajrangpuri");
 console.log(user1);
-//console.log(user3.about());
+console.log(user3.about());
 console.log(user1.about());
 
