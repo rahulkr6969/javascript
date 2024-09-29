@@ -14,5 +14,5 @@ class person{
       this.lastName=lastName;
   }
 }
-const person1=new person("mohit","kumar",'18');
+const person1=new person("rahul","kumar",'18');
 console.log(person1);
