@@ -20,6 +20,6 @@ createUser.prototype.sing = function(){
 };
 const user1 = createUser("rahul","kumar",'18',"rahul.kumar6969@gmail.com","Bajrangpuri");
 const user2 = createUser("sumit","kumar",'19',"sumit.kumar1234@gmail.com","ranchi");
-const user3  = createUser("mohit","kumar",'20',"mohit.kumar69@gmail.com","odisha");
+const user3 = createUser("mohit","kumar",'20',"mohit.kumar69@gmail.com","odisha");
 console.log(user1);
 console.log(user3.about());
